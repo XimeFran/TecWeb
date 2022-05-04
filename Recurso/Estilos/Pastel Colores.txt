@@ -1,0 +1,5 @@
+#ffffff
+#ffb8ca
+#e2c3cd
+#c6ced0
+#aadad3
