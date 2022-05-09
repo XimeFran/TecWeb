@@ -1,17 +1,30 @@
-    body{
-        text-justify: auto;
-        font-family: 'Lucida Sans';
-    }
-    div{
-        background-color: #aadad3;
-    }
-    h1,h2, h3{
-        color: palevioletred;
-    }
-    .divfoot{
-        background-color: rgb(250, 204, 250);
-        display:flex;
-        grid-column:inherit;
-        align-items: center;
-        justify-content: space-between;
-    }
+body{
+    text-justify: auto;
+    font-family: 'Lucida Sans';
+}
+.container-fluid{
+    background-color: palegoldenrod;
+}
+li a:hover {
+    background-color: #aadad3;
+}
+.container{
+    background-color: #aadad3;
+    text-align:justify;
+}
+.card{
+    border-color: #aadad3;
+}
+h1,h2, h3, h6{
+    color: palevioletred;
+}
+.divfoot{
+    background-color: palegoldenrod;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+    overflow: hidden;
+}

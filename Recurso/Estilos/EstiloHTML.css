@@ -1,91 +1,42 @@
-   
     body{
         text-justify: auto;
         font-family: 'Lucida Sans';
     }
-    ul{
+    .container-fluid{
         background-color: palegoldenrod;
-        display: flex;
-        grid-column: inherit;
-        padding: 2%;
-        justify-content: center;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    li{
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
     }
     li a:hover {
         background-color: #aadad3;
-        width: 200px;
     }
-    .banner{
-        background-color: #ffffff;
-        text-align: center;
-    }
-    .box1{
+    .box{
         background-color: #aadad3;
         text-align: center;
-        height: 200px;
+        border: 1px solid teal;
+        height: 300px;
         width: 300px;
         padding: 10px;
         margin: 10px;
         border-radius: 35px 0px 35px 0px; 
         float: left;
     }
-    .box2{
-        background-color: #aadad3;
-        text-align: center;
-        height: 200px;
-        width: 300px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 35px 0px 35px 0px; 
-        float: left;
-    }
-    .box3{
-        background-color: #aadad3;
-        text-align: center;
-        height: 200px;
-        width: 300px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 35px 0px 35px 0px; 
-        float: left;
-    }
-    .box4{
-        background-color: #aadad3;
-        text-align: center;
-        height: 200px;
-        width: 300px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 35px 0px 35px 0px; 
-        float: left;
-    }
-    h2{
+    h1,h2{
         color: palevioletred;
     }
-    td,tr,th,table{
-        border: 1px solid black;
-        border-spacing: 0px;
-    }
-    .table{
+    
+    .container{
         background-color: #aadad3;
+        border: 1px solid teal;
         text-align: center;
         border-radius: 35px 0px 35px 0px; 
     }
     table,th,tr,td{
         border-color: teal;
         text-align: center;
-        width: 25%;
         margin: 0 auto;
+    }
+    .prc-25{
+        width: 25%;
+        border: 1px solid teal;
 	}
     .divfoot{
         background-color: palegoldenrod;
