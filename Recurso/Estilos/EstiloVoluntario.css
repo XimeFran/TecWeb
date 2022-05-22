@@ -8,12 +8,15 @@ body{
 li a:hover {
     background-color: #aadad3;
 }
-.container{
+/*.container{
     background-color: #aadad3;
     text-align:justify;
-}
+}*/
 .card{
     border-color: #aadad3;
+}
+.row{
+    align-items: center;
 }
 h1,h2, h3{
     color: palevioletred;

@@ -1,4 +1,5 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,61 +10,119 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS PROPIO -->
     <link rel="stylesheet" href="../Recurso/Estilos/EstiloApadrina.css" type="text/css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm bg- fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
-                <img src="../Recurso/Logos/PastelP.PNG" alt="200" width="150"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items">
-                    <span class="navbar-toggler-icon"><i class="bi bi-arrow-left-circle-fill"></i></span>   
-            </button>     
-                
+                <img src="../Recurso/Logos/PastelP.PNG" alt="100" width="150"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items">
+                <span class="navbar-toggler-icon"><i class="bi bi-arrow-left-circle-fill"></i></span>
+            </button>
+
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link text-black-50" href="../index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/adopta.html">Adopta</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/voluntario.html">Voluntario</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/apadrina.html">Apadrina</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/contacto.html">Contáctanos</a></li>
+                    <li class="nav-item"><a class="nav-link text-black-50"
+                            href="../paginas/voluntario.html">Voluntario</a></li>
+                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/apadrina.html">Apadrina</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-black-50"
+                            href="../paginas/contacto.html">Contáctanos</a></li>
                 </ul>
-                <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal" class="btn btn-secondary">Iniciar Sesión </button>
-        </div>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
+                    class="btn btn-secondary">Iniciar Sesión </button>
+            </div>
     </nav>
-</br>
-    <div class="container"style="margin-top:80px">
-        <h1>¡Se uno de nuestros padrinos!</h1>
-        <p><strong>Si quieres ayudar a uno de nuestros rescatados pero no puedes adoptarlo, puedes apadrinarlo comprometiendo una suma mensual para alimentación y cuidados de salud</strong></p>
-        <img src="../recurso/Imagenes/paw_sf.png" alt="100"width="100" alt="">
+    </br>
+    <div class="container" style="margin-top:80px">
+        <h1 class="text-center">¡Se uno de nuestros padrinos!</h1>
+        <p class="text-center"><strong>Si quieres ayudar a uno de nuestros rescatados pero no puedes adoptarlo, puedes
+                apadrinarlo comprometiendo una suma mensual para alimentación y cuidados de salud</strong></p>
+        <img class="mx-auto d-block" src="../recurso/imagenes/imagenapad/gato-humano-830x812.jpg.jpg" alt="400"
+            width="400">
         </br>
-        <h2>¿Cómo inscribirse?</h2>
-        <p>Para inscribirte como Padrino debes completar el siguiente formulario:</p>
-        <form action="">
-        <p><strong>Nombre y Apellido:</strong> <input type="text" placeholder="Nombre y Apellido" required></p>
-        <p><strong>Rut: </strong><input type="text" placeholder="RUT"></p>
-        <p><strong>Dirección: </strong><input type="adress" style="width:300px" maxlength="30" placeholder="Ingresa tu calle, número, comuna y región"></p>
-        <p><strong>Ingresa tu correo: </strong><input type="email" class="auto_widht"style="width:300px" maxlength="30"  placeholder="Ingresa tu Correo"></p>    
-        <p><strong>Monto que puedes aportar mensualmente: </strong><input type="number" name="Aporte Mensual" id="Aporte Mensual" min="0" max="1000000"></p>
-        <p><strong>Fecha desde la que comenzará tu aporte: </strong><input type="date" name="fechadeaporte"> </p>
-        <p><strong>¿Desea recibir información sobre gastos mensuales? </strong><input type="checkbox" name="Suscribirse" id="Suscribirse"></p>
-        <br/>
-        <input type="submit" value="Enviar datos"></p>
-        <h6><strong>Una vez inscrito se le enviará un correo de bienvenida confirmando la inscripción con los datos a transferir y las fechas en las que se realizarán jornadas de adopción</strong></h6>       
-        <br/>
-    </form>
+        <h2 class="text-center">¿Cómo inscribirse?</h2>
+        <p class="text-center">Para inscribirte como Padrino debes completar el siguiente formulario:</p>
+        <br>
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                <form action="" .col>
+                    <div class=form-group>
+                        <label for="nombre"><strong>Nombre y Apellido:</strong></label>
+                        <input class="form-control" type="text" name="nombre" id="nombre"
+                            placeholder="Nombre y Apellido" required>
+                    </div>
+                    <div class=form-group>
+                        <label for="RUT"></label><strong>Rut: </strong></label>
+                        <input class="form-control" type="ws-username" placeholder="RUT" required>
+                    </div>
+                    <div class=form-group>
+                        <label for="Dirección"><strong>Dirección: </strong></label>
+                        <input class="form-control" type="adress" name="Dirección" id="Dirección"
+                            placeholder="Ingresa tu calle, número, comuna y región">
+                    </div>
+                    <div class=form-group>
+                        <label for="email"><strong>Ingresa tu correo: </strong></label>
+                        <input class="form-control" type="email" name="email" id="email" class="auto_widht"
+                            placeholder="Ingresa tu Correo" required>
+                    </div>
+                    <div class=form-group>
+                        <label for="number"> <strong>Monto que puedes aportar mensualmente: </strong></label>
+                        <input class="form-control" type="number" name="Aporte Mensual" id="Aporte Mensual" min="0"
+                            max="1000000" required>
+                    </div>
+                    <div class=form-group>
+                        <label for="date"> <strong>Fecha desde la que comenzará tu aporte: </strong></label>
+                        <input class="form-control" type="date" name="fechadeaporte" required>
+                    </div>
+                    <br>
+                    <div class=form-group>
+                        <label for="Suscribirse"><strong>¿Desea recibir información sobre gastos mensuales?
+                            </strong></label>
+                        <input type="checkbox" name="Suscribirse" id="Suscribirse">
+                    </div>
+                    <br>
+                    <div class=form-group>
+                        <input class="btn btn-secondary w-50" type="submit" value="Enviar datos">
+                        <h6><strong>Una vez inscrito se le enviará un correo de bienvenida confirmando la inscripción
+                                con los datos a transferir y las fechas en las que se realizarán jornadas de
+                                adopción</strong></h6>
+                        <br>
+                </form>
+            </div>
+            <div class="col-1">
+            </div>
+        </div>
     </div>
     <footer>
         <div class="divfoot">
-        <br>
-        <h4>Contáctate con Nosotros</h4>
-        Teléfono <a class="text-pink font-weigt-500" href="tel:+56223560564"> <img src="../Recurso/Imagenes/telefono_sf.png" width="20" height="20"><span> </span>22 356 05 64</a>
-        Whatsapp <a href="https://api.whatsapp.com/send?phone=56999475141."> <img src="../Recurso/Imagenes/Whatsapp.png" width="30" height="20"> <span> </span>9 9947 5141</a>
-        <br>
+            <h4>Contáctate con Nosotros</h4>
+            <div class="row">
+                <div class="col-6">
+                    Teléfono <a class="text-pink font-weigt-500" href="tel:+56223560564"> <img
+                            src="../Recurso/Imagenes/telefono_sf.png" width="20" height="20"><span> </span>22 356 05
+                        64</a>
+                    Whatsapp <a href="https://api.whatsapp.com/send?phone=56999475141."> <img
+                            src="../Recurso/Imagenes/Whatsapp.png" width="30" height="20"> <span> </span>9 9947 5141</a>
+                </div>
+                <div class="col-6">
+                    <p><a href="https://ximefran.github.io/TecWeb012022/" GitHub><img
+                                src="../recurso/imagenes/GitHub-Logo.png" width="150" height="80"><span></a> </span>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-- BOOTSTRAP JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>   
+
 </body>
+
 </html>

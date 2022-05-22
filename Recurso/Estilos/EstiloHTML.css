@@ -8,16 +8,19 @@
     li a:hover {
         background-color: #aadad3;
     }
-    .box{
+    .col-3{
         background-color: #aadad3;
         text-align: center;
         border: 1px solid teal;
         height: 300px;
         width: 300px;
         padding: 10px;
-        margin: 10px;
+        margin: auto;
         border-radius: 35px 0px 35px 0px; 
         float: left;
+    }
+    .row{
+        align-items: center;
     }
     h1,h2{
         color: palevioletred;
@@ -25,19 +28,20 @@
     
     .container{
         background-color: #aadad3;
-        border: 1px solid teal;
         text-align: center;
         border-radius: 35px 0px 35px 0px; 
+        
     }
-    table,th,tr,td{
+    /*table,th,tr,td{
         border-color: teal;
+        border: 1px solid teal;
         text-align: center;
         margin: 0 auto;
     }
     .prc-25{
         width: 25%;
         border: 1px solid teal;
-	}
+	}*/
     .divfoot{
         background-color: palegoldenrod;
         display: block;

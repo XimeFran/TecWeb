@@ -12,8 +12,8 @@ li a:hover {
     background-color: #aadad3;
     text-align:justify;
 }
-.img-responsive{
-    flex: auto;
+.row{
+    align-items: center;
 }
 h1,h2, h3{
     color: palevioletred;

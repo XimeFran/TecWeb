@@ -1,54 +1,112 @@
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Se uno de nuestros voluntarios</title>
-    <!-- BOOTSTRAP CSS only-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- CSS PROPIO -->
-    <link rel="stylesheet" href="../Recurso/Estilos/EstiloVoluntario.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Se uno de nuestros voluntarios</title>
+  <!-- BOOTSTRAP CSS only-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CSS PROPIO -->
+  <link rel="stylesheet" href="../Recurso/Estilos/EstiloVoluntario.css" type="text/css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg- fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../Recurso/Logos/PastelP.PNG" alt="200" width="150"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items">
-                    <span class="navbar-toggler-icon"><i class="bi bi-arrow-left-circle-fill"></i></span>   
-            </button>     
-                
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/adopta.html">Adopta</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/voluntario.html">Voluntario</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/apadrina.html">Apadrina</a></li>
-                    <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/contacto.html">Contáctanos</a></li>
-                </ul>
-                <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal" class="btn btn-secondary">Iniciar Sesión </button>
-        </div>
-    </nav>
-</br>
-    <div class="container"style="margin-top:80px">
-        <h1>¡Se uno de nuestros Voluntarios!</h1>
-        <p><strong>Completa este formulario si quieres ser hogar temporal, ayudarnos en nuestras jornadas de adopción o difundir nuestra causa en redes sociales</strong></p>
-        <img src="../recurso/Imagenes/paw_sf.png" alt="100"width="100" alt="">
-        <br/><br/>
+  <nav class="navbar navbar-expand-sm bg- fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../Recurso/Logos/PastelP.PNG" alt="200" width="150"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items">
+        <span class="navbar-toggler-icon"><i class="bi bi-arrow-left-circle-fill"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-black-50" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/adopta.html">Adopta</a></li>
+          <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/voluntario.html">Voluntario</a></li>
+          <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/apadrina.html">Apadrina</a></li>
+          <li class="nav-item"><a class="nav-link text-black-50" href="../paginas/contacto.html">Contáctanos</a></li>
+        </ul>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal" class="btn btn-secondary">Iniciar
+          Sesión </button>
+      </div>
+  </nav>
+  </br>
+  <div class="container py-4" style="margin-top:100px" text-align="center">
+    <div style="text-align: center">
+      <h2>¡Se uno de nuestros Voluntarios!</h2>
+      <p><strong>Se hogar temporal, ayudanos en nuestras jornadas de adopción o difundir nuestra causa en redes sociales
+      </p>
+      <img class="mx-auto d-block" src="../recurso/Imagenes/paw_sf.png" alt="100" width="100">
     </div>
-    <footer>
-        <div class="divfoot">
-        <br>
-        <h4>Contáctate con Nosotros</h4>
-        Teléfono <a class="text-pink font-weigt-500" href="tel:+56223560564"> <img src="../Recurso/Imagenes/telefono_sf.png" width="20" height="20"><span> </span>22 356 05 64</a>
-        Whatsapp <a href="https://api.whatsapp.com/send?phone=56999475141."> <img src="../Recurso/Imagenes/Whatsapp.png" width="30" height="20"> <span> </span>9 9947 5141</a>
-        <br>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" style="background-color:#cff8f2">
+          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+            Hogar Temporal
+          </a>
         </div>
-    </footer>
-    <!-- BOOTSTRAP JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>   
+        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+          <div class="card-body">
+            Participa como hogar temporal para nuestros animales rescatados.
+            <img class="mx-auto d-block" src="../recurso/imagenes/imagenvol/hogar1.png" alt="400" width="300">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" style="background-color:#cff8f2">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+            Jornadas de Adopción
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Participa en nuestras jornadas de adopción que se realizan todas las semanas en el Parque O'Higgins.
+            <img class="mx-auto d-block" src="../recurso/imagenes/imagenvol/adopcion.jpg" alt="400" width="300">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" style="background-color:#cff8f2">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+            Difusión
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Realiza difusión en redes sociales para ayudarnos a encontrar hogar definitivo o para ayudar a animales
+            perdidos.
+            <img class="mx-auto d-block" src="../recurso/imagenes/imagenvol/social_media_icons_1.gif" alt="400"
+              width="300">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="divfoot">
+      <h4>Contáctate con Nosotros</h4>
+      <div class="row">
+        <div class="col-6">
+          Teléfono <a class="text-pink font-weigt-500" href="tel:+56223560564"> <img
+              src="../Recurso/Imagenes/telefono_sf.png" width="20" height="20"><span> </span>22 356 05 64</a>
+          Whatsapp <a href="https://api.whatsapp.com/send?phone=56999475141."> <img
+              src="../Recurso/Imagenes/Whatsapp.png" width="30" height="20"> <span> </span>9 9947 5141</a>
+        </div>
+        <div class="col-6">
+          <p><a href="https://ximefran.github.io/TecWeb012022/" GitHub><img src="../recurso/imagenes/GitHub-Logo.png"
+            width="150" height="80"><span></a> </span>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
