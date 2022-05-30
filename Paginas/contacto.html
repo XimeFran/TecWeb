@@ -106,31 +106,48 @@
             </div>
         </div>
 </div>
-    <!--_____________________________________________________MODAL_SECTION______________________________________________________-->
-    <!--INICIAR SESIÓN-->
-    <!--Modal-->
-    <div class="modal" tabindex="-1">
+    
+    <!-- ______________________________________MODAL SECTION_________________________________________-->
+    <!-- MODAL INICIAR SESION -->
+    <!-- The Modal -->
+    <div class="modal" id="loginModal">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <form>
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Iniciar Sesion</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="input-group flex-nowrap mb-3">
+                            <span class="input-group-text" id="addon-wrapping">Correo</span>
+                            <input type="text" class="form-control" placeholder="correo" aria-label="correo"
+                                aria-describedby="addon-wrapping" name="correo" required>
+                        </div>
+
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">Contraseña</span>
+                            <input type="text" class="form-control" placeholder="password" aria-label="password"
+                                aria-describedby="addon-wrapping" name="password" required>
+                        </div>
+                        <a class="nav-link text-dark" href="">Olvide mi contraseña</a>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-success">Iniciar</button>
+                    </div>
+
                 </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
+            </form>
+
         </div>
     </div>
-
-
-
-    <!--_____________________________________________________MODAL_SECTION______________________________________________________-->
-
     <footer>
         <div class="divfoot">
             <h4>Contáctate con Nosotros</h4>
