@@ -14,12 +14,12 @@ function obtenerDatos() {
                 var fecha = data[indice].fecha
                 var nombre = data[indice].nombre
                 var ciudad = data[indice].ciudad
-                var foto = data[indice].foto
+                var avatar = data[indice].avatar
                 var filaTAbla = '<tr>'
                                 + '<td class="prc-25">'+fecha+'</td>'
                                 +  '<td class="prc-25">'+nombre+'</td>'
                                 +   '<td class="prc-25">'+ciudad+'</td>'
-                                +   '<td class="prc-25"><img src="'+foto+'" alt="" style="width: 131px"></td>'
+                                +   '<td class="prc-25"><img src="'+avatar+'" alt="" style="width: 131px"></td>'
                                 '</tr>'
                 console.log(filaTAbla)
                 $("#tabla-adopt").append(filaTAbla)
