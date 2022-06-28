@@ -62,7 +62,7 @@ function validarDatos() {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Uno o mas campos son invalidos'+errores,
+        text: 'Uno o mas campos son invalidos: '+errores,
         footer: '<a href="">Why do I have this issue?</a>'
         })
         return false
