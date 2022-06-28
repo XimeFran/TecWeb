@@ -172,9 +172,47 @@
     </footer>
 
 </body>
+<script>
+    function validarDatos() {
+    nombre= document.getElementById("nombre").value
+    apellido= document.getElementById("apellido").value
+    edad= parseInt (document.getElementById("edad").value)
+    direccion= document.getElementById("direccion").value
+    mensaje="nombre:"+nombre+"apellido:"+apellido+"edad:"+edad+"direccion:"+direccion
+    errores=0
+    if(nombre.length<3){
+        document.getElementById("errorNombre").style.display="block"
+        errores++
+    } 
+    else{
+        document.getElementById("errorNombre").style.display="none"
+    }  
+    if(edad<18){
+        document.getElementById("errorEdad").style.display="block"
+        errores++
+    } 
+    else{
+        document.getElementById("errorEdad").style.display="none"
+    }  
+    if(errores>0){
+        document.getElementById("box-send").append("Uno de los campos es invalido")
+        Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Uno o mas campos son invalidos'+errores,
+        footer: '<a href="">Why do I have this issue?</a>'
+        })
+        return false
+    }
+    else{
+        return true
+    }
+  
+}
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="../recurso/scripts/validaciones.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </html>
