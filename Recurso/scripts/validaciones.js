@@ -65,10 +65,10 @@ function validarDatos() {
     if(errores>0){
         document.getElementById("box-send").append("Uno de los campos es invalido")
         Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Uno o mas campos son invalidos: '+errores,
-        footer: '<a href="">Why do I have this issue?</a>'
+            icon: 'error',
+            title: '¡¡¡Error!!!...',
+            text: 'Uno o mas campos son invalidos: '+errores,
+            footer: '<a href="">Why do I have this issue?</a>'
         })
         return false
     }
