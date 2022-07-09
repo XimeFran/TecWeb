@@ -41,7 +41,6 @@ function imagen() {
         imageAlt: 'Custom image',
       })
 }
-
 function validarDatos() {
     nombre= document.getElementById("nombre").value
     apellido= document.getElementById("apellido").value
