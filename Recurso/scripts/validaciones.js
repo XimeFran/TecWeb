@@ -39,7 +39,7 @@ function imagen(){
         imageWidth: 300,
         imageHeight: 200,
         imageAlt: 'Custom image',
-      })
+    })
 }
 function validarDatos() {
     nombre= document.getElementById("nombre").value
