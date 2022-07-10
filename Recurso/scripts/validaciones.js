@@ -31,7 +31,7 @@ function obtenerDatos() {
         }
     });
 }
-function imagen() {
+function imagen(){
     Swal.fire({
         title: 'Escríbenos a',
         text: 'adopt-it@gmail.com',
