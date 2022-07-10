@@ -33,10 +33,10 @@ function obtenerDatos() {
 }
 function imagen(){
     Swal.fire({
-        title: 'Escríbenos a',
-        text: 'adopt-it@gmail.com',
-        imageUrl: '../recurso/imagenes/imagenvol/correoanimal.jpg',
-        imageWidth: 300,
+        title: 'Sweet!',
+        text: 'Modal with a custom image.',
+        imageUrl: 'https://unsplash.it/400/200',
+        imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',
       })
